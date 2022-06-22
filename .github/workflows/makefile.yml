@@ -16,9 +16,6 @@ jobs:
     
     - name: Install dependencies
       run: make
-    
-    - name: Run test
-      run: make test
       
     - name: Run fclean
       run: make fclean
